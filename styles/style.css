@@ -1,0 +1,130 @@
+.container .event input {
+  width: 300px;
+  height: 70px;
+  border-radius: 3px;
+  border: 1px solid black;
+  margin-bottom: 25px;
+}
+
+.container .event .pic {
+  height: auto;
+  width: 300px;
+}
+
+.container .event textarea {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 25px;
+}
+
+.container .event .button {
+  height: 70px;
+  width: 40px;
+  background-color: #77736c;
+}
+
+.container .card .card-img-top {
+  border-radius: 0;
+  width: 100%;
+  height: 400px;
+}
+
+.container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.container .event .table img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+
+.container .activation_form {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.container .activation_form input {
+  width: 300px;
+  height: 70px;
+  border-radius: 3px;
+  border: 1px solid black;
+  margin-bottom: 25px;
+}
+
+.container .activation_form .button {
+  height: 70px;
+  width: 40px;
+  background-color: #77736c;
+}
+
+@media (max-width: 1600px) {
+  .container {
+    width: 74vw;
+  }
+  .container .title h1 {
+    color: #e45b1c;
+  }
+  .container .navbar {
+    margin-bottom: 30px;
+  }
+  .container .navbar li {
+    list-style-type: none;
+    margin-left: 10px;
+  }
+  .container .navbar li .logout:hover .text_content {
+    display: block;
+  }
+  .container .navbar .nav-item .fa-times {
+    color: red;
+  }
+  .container .form {
+    position: absolute;
+    right: 13.5vw;
+    top: 20%;
+    z-index: 999;
+  }
+  .container .form .input {
+    border-radius: 3px;
+    height: 50px;
+    border: 1px solid black;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    width: 74vw;
+  }
+  .container .title h1 {
+    color: #e45b1c;
+  }
+  .container .navbar {
+    margin-bottom: 30px;
+  }
+  .container .navbar li {
+    list-style-type: none;
+    margin-left: 10px;
+  }
+  .container .navbar li .logout:hover .text_content {
+    display: block;
+  }
+  .container .navbar .nav-item .fa-times {
+    color: red;
+  }
+  .container .form {
+    position: absolute;
+    right: 21vw;
+    top: 20%;
+    z-index: 999;
+  }
+  .container .form .input {
+    border-radius: 3px;
+    height: 50px;
+    border: 1px solid black;
+  }
+}
+/*# sourceMappingURL=style.css.map */
