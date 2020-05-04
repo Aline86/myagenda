@@ -1,8 +1,9 @@
 <?php
 class LogoutController{
     public function logout(){
-        session_start();
+   
         unset($_SESSION['id']);
-        header('Location: index.php?controller=pages&action=home');
+        $agendas=Agenda::get_all();
+        require_once('views/pages/index.php');
     }
 }

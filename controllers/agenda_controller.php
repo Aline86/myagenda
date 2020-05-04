@@ -1,7 +1,4 @@
 <?php
-header('Content-type: text/html; charset=UTF-8');
-session_start();
-
      function traitementImage($str, $fichierLieu, $fichierType){
         $stri = strip_tags($str); 
         $stri = preg_replace('/[\r\n\t ]+/', ' ', $str);
@@ -40,7 +37,7 @@ class AgendaController{
         require_once('views/pages/backoffice.php');
     }
     public function publish_agenda(){
-        $id_user=isset($_POST['id_user'])?$_POST['id_user']:"";
+        $id_user=$_SESSION['id'];
         $titre=isset($_POST['titre'])?$_POST['titre']:"";
         $description=isset($_POST['description'])?$_POST['description']:"";
         $date=isset($_POST['date'])?$_POST['date']:"";

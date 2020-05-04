@@ -17,6 +17,7 @@ case 'login':
     $controller = new LoginController();
     break;
 case 'logout':
+    require_once('models/agenda.php');
     $controller = new LogoutController();
     break;
 case 'agenda':
